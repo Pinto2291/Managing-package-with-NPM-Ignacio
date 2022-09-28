@@ -1,15 +1,21 @@
-{	
+{
 	"author": "Ignacio Pinto",
-	"name": "fcc-learn-npm-package-json",
-	"dependencies": {
-		"express": "^4.14.0"
-	},
-	"main": "server.js",
-	"scripts": {
-		"start": "node server.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://idontknow/todo.git"
-	}
-}
+	  "name": "fcc-learn-npm-package-json",
+	"description": "a project to learn how backend works",
+	"keywords": ["freecodecamp", "project", "backend", "learning"],
+	"license": "MIT",
+	"version": "1.1.0",
+	  "dependencies": {
+		  "express": "^4.14.0",
+	  "@freecodecamp/example": "^1.2.13"
+	  },
+	  "main": "server.js",
+	  "scripts": {
+		  "start": "node server.js"
+	  },
+	  "repository": {
+		  "type": "git",
+		  "url": "https://idontknow/todo.git"
+	  }
+  }
+  
